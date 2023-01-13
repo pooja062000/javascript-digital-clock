@@ -1,95 +1,90 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     font-weight: 600;
     background-color: black;
-    
-
-}
-
+    font-family: 'Nunito Sans', sans-serif;
+   }
 .heading{
     width: 40%;
     height: 8%;
-    color: #d55f15;
+    color: hsl(28, 88%, 48%);
     /* background-color: #EFC234; */
-    margin: 5% auto;
+    margin: 3% auto;
     font-size: 40px;
+    margin-top: 200px;
     text-align: center;
 }
 h6{
     display: inline;
 }
-
-.clock{
+.greet{
     width: 10%;
     height: 4%;
-    margin-left: 42%;
+    margin-left: 46%;
     display: inline;
-    color: aqua;
-    font-size: 20px;
+    /* background-color: red; */
+    color: #fb7311;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 30px;
+}      
+i{
+    color: white;
+    margin-bottom: 10%;
 }
-
-.text-center{
+.digi_clock{
     width: 40%;
     height: 15%;
-    border: 1px solid black;
-    margin: 0 auto;
-    
-   
+   /* border: 1px solid black;*/
+    margin: -8% auto;
 }
-
-#hr{
+#hour{
     width: 25%;
     height: 100%;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     float: left;
+    margin-top: 130px;
     font-size: 60px;
     color: white;
-    background-color: black;
-    text-align: center;
-    padding: 2.5%;
-
-}
-#mint{
-    width: 25%;
-    height: 100%;
-    border: 1px solid black;
-    float: left;
-    font-size: 60px;
-    color: white;
-    background-color: black;
     text-align: center;
     padding: 2.5%;
 }
-
-#sed{
+#minute{
     width: 25%;
     height: 100%;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     float: left;
     font-size: 60px;
+    margin-top: 130px;
     color: white;
-    background-color: black;
     text-align: center;
     padding: 2.5%;
 }
-
-
-
-#sess{
+#second{
     width: 25%;
     height: 100%;
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     float: left;
     font-size: 60px;
     color: white;
-    background-color: black;
+    margin-top: 130px;
+    text-align: center;
+    padding: 2.5%;
+}
+#session{
+    width: 25%;
+    height: 100%;
+   /* border: 1px solid black;*/
+    float: left;
+    font-size: 60px;
+    color: white;
+    margin-top: 130px;
     text-align: center;
     padding: 2.5%;
 }
